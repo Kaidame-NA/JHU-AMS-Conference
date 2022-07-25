@@ -1,15 +1,16 @@
 ---
 	import Layout from '~/layouts/Layout.astro';
-
 	import BasicCTA from '~/components/astro/ctas/BasicCTA.astro';
 	import Speakers from '~/components/astro/features/Speakers.astro';
 	import Schedule from '~/components/astro/features/Schedule.astro';
 	import HeroWithImage from '~/components/astro/hero/HeroWithImage.astro';
+	import Description from '~/components/astro/features/Description.astro';
 ---
 
 <Layout title="JHU AMS Research Conference">
 	<main>
 		<HeroWithImage />
+		<Description />
 		<Schedule />
 		<Speakers/>
 		<BasicCTA />
